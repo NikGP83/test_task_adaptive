@@ -1,0 +1,31 @@
+.app-info {
+  background-image: url('../img/telephone.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title-info {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.title-text {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  color: $basic-black-text;
+}
+
+@media (min-width: $desktop) {
+  .title-info {
+    text-align: left;
+    width: 559px;
+  }
+  .title-text {
+    font-size: 48px;
+    line-height: 45px;
+  }
+  .app-info {
+    background-image: none;
+  }
+}
