@@ -11,9 +11,25 @@
 
 .title-text {
   font-weight: 700;
-  font-size: 29px;
-  line-height: 39px;
+  font-size: 32px;
+  line-height: 37px;
   color: $basic-black-text;
+}
+
+.list-info {
+  padding: 0;
+  margin: 0;
+  margin-left: 25px;
+  margin-bottom: 41px;
+}
+
+.app-store-block {
+  margin-bottom: 16px;
+}
+
+.app-text {
+  color: $app-text;
+  font-weight: 600;
 }
 
 @media (min-width: $desktop) {

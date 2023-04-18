@@ -1,0 +1,17 @@
+.site-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-list {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: $desktop) {
+  .site-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
