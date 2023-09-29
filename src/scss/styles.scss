@@ -1,0 +1,57 @@
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v25-cyrillic_latin-regular.woff2")
+    format("woff2");
+}
+/* montserrat-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v25-cyrillic_latin-500.woff2") format("woff2");
+}
+/* montserrat-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v25-cyrillic_latin-600.woff2") format("woff2");
+}
+/* montserrat-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v25-cyrillic_latin-700.woff2") format("woff2");
+}
+
+body {
+  min-width: 320px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: $basic-black-text;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  background-image: url("../img/site_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  letter-spacing: -0.41px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  height: 100%;
+}

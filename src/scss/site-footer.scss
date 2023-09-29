@@ -1,0 +1,31 @@
+.site-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text-block{
+  width: 337px;
+  margin-bottom: 20px;
+}
+
+.socials-wrapper {
+  margin-bottom: 20px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-list-item {
+  margin-right: 16px;
+}
+
+@media (min-width: $desktop) {
+  .site-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,10 @@
+.page-main {
+  margin-bottom: 170px;
+}
+
+@media (min-width: $desktop) {
+  .page-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

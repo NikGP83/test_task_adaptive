@@ -1,0 +1,16 @@
+.main-header {
+  margin-bottom: 20px;
+}
+
+.logo-wrapper {
+  padding: 30px;
+  padding-left: 0;
+  text-align: center;
+}
+
+@media (min-width: $desktop) {
+  .logo-wrapper {
+    text-align: left;
+    padding-top: 76px;
+  }
+}

@@ -1,0 +1,66 @@
+.app-info {
+  background-image: url("../img/telephone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.app-wrapper {
+  text-align: center;
+}
+
+.title-info {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.list-info > li::marker {
+  font-size: 10px;
+}
+
+.list-item-text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+}
+
+.title-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: $basic-black-text;
+}
+
+.list-info {
+  padding: 0;
+  margin: 0;
+  margin-left: 25px;
+  margin-bottom: 41px;
+}
+
+.app-store-block {
+  margin-bottom: 16px;
+}
+
+.app-text {
+  color: $app-text;
+  font-weight: 600;
+}
+
+@media (min-width: $desktop) {
+  .title-info {
+    text-align: left;
+    width: 559px;
+  }
+  .title-text {
+    font-size: 48px;
+    line-height: 45px;
+  }
+
+  .app-wrapper {
+    text-align: left;
+  }
+  .app-info {
+    background-image: none;
+  }
+}
